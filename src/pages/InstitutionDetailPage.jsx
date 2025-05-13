@@ -159,9 +159,11 @@ const InstitutionDetailPage = () => {
                 <div className="flex justify-between items-center mb-6">
                   <h2 className="text-2xl font-bold text-gray-900">Guest Reviews</h2>
                   <button
-                    onClick={() => navigate(`/write-review/${id}`)}
+                   // onClick={() => navigate(`/write-review/${id}`)}
                     className="btn btn-primary"
-                  >
+                    onClick={() => console.log(id)}>
+
+                
                     Write a Review
                   </button>
                 </div>
@@ -237,8 +239,10 @@ const InstitutionDetailPage = () => {
                       Be the first to leave a review for {institution.name}.
                     </p>
                     <button
-                      onClick={() => navigate(`/write-review/${id}`)}
+                      // onClick={() => navigate(`/write-review/${id}`)}
+                      // className="btn btn-primary"
                       className="btn btn-primary"
+                    onClick={() => console.log(id)}
                     >
                       Write a Review
                     </button>

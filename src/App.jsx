@@ -1,5 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
+//import { Routes, Route } from 'react-router-dom';
+
 import Layout from './components/layout/Layout';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import InstitutionsPage from './pages/InstitutionsPage';
 import InstitutionDetailPage from './pages/InstitutionDetailPage';

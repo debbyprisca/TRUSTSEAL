@@ -55,14 +55,14 @@ const Header = () => {
                 </div>
               </Link>
             )}
-            <div className="relative">
+            {/* <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
               <input
                 type="text"
                 placeholder="Search institutions..."
                 className="pl-10 pr-4 py-1.5 text-sm rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 w-48 focus:w-64"
               />
-            </div>
+            </div> */}
           </nav>
           
           {/* Desktop Auth */}
